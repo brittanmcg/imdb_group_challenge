@@ -24,3 +24,5 @@ class CreateTables < ActiveRecord::Migration
     end
   end
 end
+
+role = Role.new(belongs_to: 'Angelina Jolie')
